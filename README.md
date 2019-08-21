@@ -1,0 +1,2 @@
+# MinerText
+Ferramenta em Desenvolvimento
