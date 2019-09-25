@@ -50,7 +50,7 @@ def count_words(data):
 ''' ## '''
 
 def main():
-    raw_data = pd.read_csv('Projetos_CC_tabela_limpa.csv')
+    raw_data = pd.read_excel('tabelas/Tabela_dados.xlsx')
     print(raw_data)
     '''
     resumo = read_resume('Projetos_CC.xlsx','Treina', 'RESUMO')

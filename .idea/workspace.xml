@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/read_xsl.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projetos_CC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tabelas/Projetos_CC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projetos_CC_tabela_limpa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tabelas/Projetos_CC_tabela_limpa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tabela_dados.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tabelas/Tabela_dados.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +18,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QehK0I3IdW4YNnIwtWD5B12xhW" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucas\PycharmProjects\MinerText\tabelas" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -65,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568136901070</updated>
     </task>
+    <task id="LOCAL-00001" summary="Mudanças no main.py, e tabela de dados &quot;garimpada&quot;">
+      <created>1568140152214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568140152214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudanças no main.py, e tabela de dados &quot;garimpada&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudanças no main.py, e tabela de dados &quot;garimpada&quot;" />
   </component>
 </project>
