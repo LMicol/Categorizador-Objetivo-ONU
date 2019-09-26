@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub_ensino_modifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569385874625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todos os dados convertidos por script e tabela sem formatação adicionada">
+      <created>1569504414948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569504414948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mudanças no main.py, e tabela de dados &quot;garimpada&quot;" />
     <MESSAGE value="Tabela nova de dados, algumas colunas foram removidas, outras renomeadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tabela nova de dados, algumas colunas foram removidas, outras renomeadas" />
+    <MESSAGE value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
   </component>
 </project>
