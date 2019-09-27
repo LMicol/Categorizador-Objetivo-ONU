@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569504414948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Primeiros resultados comitados">
+      <created>1569505901007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569505901007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
     <MESSAGE value="Mudanças no main.py, e tabela de dados &quot;garimpada&quot;" />
     <MESSAGE value="Tabela nova de dados, algumas colunas foram removidas, outras renomeadas" />
     <MESSAGE value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
+    <MESSAGE value="Primeiros resultados comitados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiros resultados comitados" />
   </component>
 </project>

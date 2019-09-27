@@ -1,0 +1,192 @@
+RANDOM FOREST
+Best Hyper Parameters: {'criterion': 'gini', 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 30, 'n_jobs': -1, 'random_state': 123}
+Estimator Params: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=6,
+                       min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+Prediction score [ RF ]:
+0.5371549893842887
+              precision    recall  f1-score   support
+
+           2       0.31      0.29      0.30        28
+           3       0.75      0.78      0.76       116
+           4       0.58      0.74      0.65       164
+           5       0.00      0.00      0.00         7
+           6       0.50      0.60      0.55        15
+           7       0.00      0.00      0.00         1
+           8       0.17      0.23      0.19        26
+           9       0.25      0.07      0.11        15
+          10       0.00      0.00      0.00         9
+          11       0.00      0.00      0.00        15
+          12       0.25      0.16      0.20        25
+          13       0.00      0.00      0.00         3
+          14       0.00      0.00      0.00         1
+          15       0.38      0.57      0.46        23
+          16       0.00      0.00      0.00        10
+          17       0.00      0.00      0.00        13
+
+    accuracy                           0.54       471
+   macro avg       0.20      0.21      0.20       471
+weighted avg       0.47      0.54      0.50       471
+
+-------------------------------------------
+>> GRIDSEARCH RUNNING on:  KNN
+
+KNN
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+F:\Anaconda3\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+Best Hyper Parameters: {'algorithm': 'brute', 'leaf_size': 1, 'n_jobs': -1, 'n_neighbors': 9, 'weights': 'uniform'}
+Estimator Params: KNeighborsClassifier(algorithm='brute', leaf_size=1, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=9, p=2,
+                     weights='uniform')
+Prediction score [ KNN ]:
+0.5562632696390658
+              precision    recall  f1-score   support
+
+           2       0.28      0.32      0.30        28
+           3       0.78      0.78      0.78       116
+           4       0.57      0.80      0.66       164
+           5       0.00      0.00      0.00         7
+           6       0.53      0.60      0.56        15
+           7       0.00      0.00      0.00         1
+           8       0.18      0.23      0.20        26
+           9       0.33      0.07      0.11        15
+          10       0.00      0.00      0.00         9
+          11       0.00      0.00      0.00        15
+          12       0.29      0.08      0.12        25
+          13       0.00      0.00      0.00         3
+          14       0.00      0.00      0.00         1
+          15       0.42      0.57      0.48        23
+          16       0.00      0.00      0.00        10
+          17       0.00      0.00      0.00        13
+
+    accuracy                           0.56       471
+   macro avg       0.21      0.22      0.20       471
+weighted avg       0.48      0.56      0.50       471
+
+-------------------------------------------
+>> GRIDSEARCH RUNNING on:  DT
+
+DECISION TREE
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Best Hyper Parameters: {'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 11}
+Estimator Params: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=11,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+Prediction score [ DT ]:
+0.5371549893842887
+              precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00         0
+           2       0.31      0.29      0.30        28
+           3       0.75      0.79      0.77       116
+           4       0.56      0.74      0.64       164
+           5       0.00      0.00      0.00         7
+           6       0.50      0.60      0.55        15
+           7       0.00      0.00      0.00         1
+           8       0.18      0.23      0.20        26
+           9       1.00      0.07      0.12        15
+          10       0.00      0.00      0.00         9
+          11       0.00      0.00      0.00        15
+          12       0.27      0.16      0.20        25
+          13       0.00      0.00      0.00         3
+          14       0.00      0.00      0.00         1
+          15       0.40      0.52      0.45        23
+          16       0.00      0.00      0.00        10
+          17       0.00      0.00      0.00        13
+
+    accuracy                           0.54       471
+   macro avg       0.23      0.20      0.19       471
+weighted avg       0.49      0.54      0.49       471
+
+-------------------------------------------
+>> GRIDSEARCH RUNNING on:  SVM
+
+SVM
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1439: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Best Hyper Parameters: {'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}
+Estimator Params: SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
+    max_iter=-1, probability=False, random_state=None, shrinking=True,
+    tol=0.001, verbose=False)
+Prediction score [ SVM ]:
+0.3481953290870488
+              precision    recall  f1-score   support
+
+           2       0.00      0.00      0.00        28
+           3       0.00      0.00      0.00       116
+           4       0.35      1.00      0.52       164
+           5       0.00      0.00      0.00         7
+           6       0.00      0.00      0.00        15
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00        26
+           9       0.00      0.00      0.00        15
+          10       0.00      0.00      0.00         9
+          11       0.00      0.00      0.00        15
+          12       0.00      0.00      0.00        25
+          13       0.00      0.00      0.00         3
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00        23
+          16       0.00      0.00      0.00        10
+          17       0.00      0.00      0.00        13
+
+    accuracy                           0.35       471
+   macro avg       0.02      0.06      0.03       471
+weighted avg       0.12      0.35      0.18       471
+
+-------------------------------------------
+>> GRIDSEARCH RUNNING on:  RNA
+
+RNA - MLP
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+F:\Anaconda3\lib\site-packages\sklearn\model_selection\_search.py:813: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+Best Hyper Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (3, 62), 'learning_rate': 'constant', 'solver': 'lbfgs'}
+Estimator Params: MLPClassifier(activation='tanh', alpha=1e-05, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=(3, 62), learning_rate='constant',
+              learning_rate_init=0.001, max_iter=400, momentum=0.9,
+              n_iter_no_change=10, nesterovs_momentum=True, power_t=0.5,
+              random_state=None, shuffle=True, solver='lbfgs', tol=0.0001,
+              validation_fraction=0.1, verbose=False, warm_start=False)
+Prediction score [ RNA ]:
+0.49256900212314225
+              precision    recall  f1-score   support
+
+           2       0.00      0.00      0.00        28
+           3       0.79      0.67      0.73       116
+           4       0.41      0.94      0.57       164
+           5       0.00      0.00      0.00         7
+           6       0.00      0.00      0.00        15
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00        26
+           9       0.00      0.00      0.00        15
+          10       0.00      0.00      0.00         9
+          11       0.00      0.00      0.00        15
+          12       0.00      0.00      0.00        25
+          13       0.00      0.00      0.00         3
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00        23
+          16       0.00      0.00      0.00        10
+          17       0.00      0.00      0.00        13
+
+    accuracy                           0.49       471
+   macro avg       0.08      0.10      0.08       471
+weighted avg       0.34      0.49      0.38       471
+
+-------------------------------------------
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
