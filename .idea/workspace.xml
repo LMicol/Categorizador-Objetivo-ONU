@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelas/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelas/final.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tabelas/final.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelas/referencia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelas/unidade_de_ensino_ref.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

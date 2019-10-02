@@ -1,6 +1,0 @@
-==============
-Classificação:
-1 - Ensino
-2 - Pesquisa
-3 - Extensão
-==============

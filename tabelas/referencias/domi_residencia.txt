@@ -1,0 +1,3 @@
+0 - rural
+1 - urbana
+2 - ambos
