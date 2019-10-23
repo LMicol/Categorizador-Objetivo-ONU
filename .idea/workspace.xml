@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569505901007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Graficos por classificação gerados">
+      <created>1571840309946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840309946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,7 @@
     <MESSAGE value="Tabela nova de dados, algumas colunas foram removidas, outras renomeadas" />
     <MESSAGE value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
     <MESSAGE value="Primeiros resultados comitados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiros resultados comitados" />
+    <MESSAGE value="Graficos por classificação gerados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graficos por classificação gerados" />
   </component>
 </project>
