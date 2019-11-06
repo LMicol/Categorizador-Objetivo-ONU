@@ -1,42 +1,9 @@
-import pandas as pd
+from MinerUtils import MinerUtils as Mu
 import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
 import operator
 
-def removeall(raw):
-    raw = raw.replace('\'', ' ')
-    raw = raw.replace('.', ' ')
-    raw = raw.replace(',', ' ')
-    raw = raw.replace('+', ' ')
-    raw = raw.replace('-', ' ')
-    raw = raw.replace(';', ' ')
-    raw = raw.replace('\"', ' ')
-    raw = raw.replace('{', ' ')
-    raw = raw.replace('}', ' ')
-    raw = raw.replace('[', ' ')
-    raw = raw.replace(']', ' ')
-    raw = raw.replace('/', ' ')
-    raw = raw.replace('\\', ' ')
-    raw = raw.replace(':', ' ')
-    raw = raw.replace('(', ' ')
-    raw = raw.replace(')', ' ')
-    raw = raw.replace('?', ' ')
-    raw = raw.replace('!', ' ')
-    raw = raw.replace('  ', ' ')
-    raw = raw.replace('   ', ' ')
-    return raw
-
-def counter(string):
-    counter = dict()
-    s = string.split()
-    
-    for word in s:
-        try:
-            counter[word]+=1
-        except:
-            counter[word] = 1
-
-    return counter
 
 original = pd.read_excel("tabelas/final.xlsx")
 original = original[['TITULO_PROJETO','PALAVRAS_CHAVE','RESUMO','OBJETIVO_ONU']]
@@ -55,12 +22,12 @@ for i in range(3):
 
 for i in range(17):
     alltxt[i] = alltxt[i].lower()
-    alltxt[i] = removeall(alltxt[i])
+    alltxt[i] = Mu.removeall(alltxt[i])
 
 
 dictis = []
 for i in range(17):
-    dictis.append(counter(alltxt[i]))
+    dictis.append(Mu.counter(alltxt[i]))
 
 final_dict = []
 for i in range(17):
@@ -89,14 +56,3 @@ for i in range(17):
     plt.ylabel('Repetições', fontsize=2)
     plt.xticks(index, labels, fontsize=10, rotation=90)
     plt.show()
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
