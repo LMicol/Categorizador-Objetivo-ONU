@@ -1,0 +1,33 @@
+RANDOM FOREST
+Best Hyper Parameters: {'criterion': 'entropy', 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 30, 'n_jobs': -1, 'random_state': 123}
+Estimator Params: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=3,
+                       min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+Prediction score [ RF ]:
+0.5925110132158591
+F:\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+              precision    recall  f1-score   support
+
+           2       0.31      0.11      0.16        36
+           3       0.65      0.84      0.73       110
+           4       0.63      0.85      0.73       172
+           6       0.62      0.28      0.38        18
+           8       0.33      0.07      0.11        30
+           9       1.00      0.17      0.29        12
+          10       0.00      0.00      0.00         7
+          11       0.50      0.17      0.25        12
+          12       0.00      0.00      0.00        22
+          15       0.39      0.68      0.50        22
+          16       0.00      0.00      0.00         9
+          17       0.00      0.00      0.00         4
+
+    accuracy                           0.59       454
+   macro avg       0.37      0.26      0.26       454
+weighted avg       0.53      0.59      0.53       454
+
+-------------------------------------------
