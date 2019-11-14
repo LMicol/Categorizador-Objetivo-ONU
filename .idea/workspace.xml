@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571840309946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Palavras contadas para utilização no AutoWEKA">
+      <created>1573013971498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573013971498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +142,7 @@
     <MESSAGE value="Todos os dados convertidos por script e tabela sem formatação adicionada" />
     <MESSAGE value="Primeiros resultados comitados" />
     <MESSAGE value="Graficos por classificação gerados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graficos por classificação gerados" />
+    <MESSAGE value="Palavras contadas para utilização no AutoWEKA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palavras contadas para utilização no AutoWEKA" />
   </component>
 </project>

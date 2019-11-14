@@ -17,23 +17,31 @@ import Tunning
 def main(argv):
     classifiers=['RF','KNN','DT','SVM','RNA'] #,'nn','sgd']
     
-    ds = pd.read_excel('datasets/final.xlsx').dropna()
+    ds = pd.read_excel('../MinerText/tabelas/data_new.xlsx').dropna()
 
     X,y = FL.Selection(ds, ['OBJETIVO_ONU'])  #all_data = class_Rob / |||  output = IC_Rob / IC_Sch
+    
+    '''
+    vet = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    for i in range(2267):
+        vet[y.iloc[i][0]] += 1
+    '''
+
+    
     #todo pegar a quantidade de classes na saida
-    y_size = 17  #no dataset 'output' são 6 classes
-    X = X[['ALUNOS_ENVOLVIDOS', 'CLASSIFICACAO', 'NUM_PUB_ALVO','SUBUNIDADE_ENSINO']]
+    y_size = 9  #no dataset 'output' são 6 classes
+    #X = X[['ALUNOS_ENVOLVIDOS', 'CLASSIFICACAO', 'NUM_PUB_ALVO','SUBUNIDADE_ENSINO']]
     X_norm = Normalization.normalize(X)
 
     ### FEATURE SELECTION
     # two distinct ways to select features: kbest or fittoclassifier, which is better?
-    columns = FL.ExtraTree(X,y[y.columns[0]], number=5)
+    #columns = FL.ExtraTree(X,y[y.columns[0]], number=5)
     #columns = FL.kBest(X_norm, y[y.columns[0]], k=5)
     #FL.corr_HeatMap(ds)
 
     #columns = ['Q','Qt','s1v0','fs','qc']#['Qt','fs','qc','qt','u2']#['qc', 'fs', 'u2']# ['Q','Qt','s1v0','fs','qc']#  'qc', 'fs', 'u2', 'sv0'#  'Qt','fs','qc','qt','u2'#
 
-    X = X[columns]
+    #X = X[columns]
     y = y[y.columns[0]].values  # y[y.columns[0]].values
 
     #X_norm = Normalization.normalize(X)

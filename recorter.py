@@ -27,10 +27,10 @@ alltxt = Mu.removeall(alltxt)
 dc = Mu.counter(alltxt)
 
 bad_words = ['que','para','com','como','dos','uma','das','dos','por','sobre',
-             'entre','ser','s√£o','ser√£o','ser√°','tem','nas','nos','n√£o','sua',
-             'seu','aos','este','atrav√©s','bem','bom','mal','mau', 'mais', 
-             'pela', 'assim', 'tamb√©m', 'pelo', 'al√©m', 'suas', 'cada', 'pode'
-             'est√°', 'neste', 'nesta', 'parte', 'desta', 'deste', 'esta', 'este',
+             'entre','ser','s„o','ser„o','ser·','tem','nas','nos','n„o','sua',
+             'seu','aos','este','atravÈs','bem','bom','mal','mau', 'mais', 
+             'pela', 'assim', 'tambÈm', 'pelo', 'alÈm', 'suas', 'cada', 'pode'
+             'est·', 'neste', 'nesta', 'parte', 'desta', 'deste', 'esta', 'este',
              'dessa', 'quais', 'ainda', 'tanto', 'isso', 'mesmo']
 
 final_dict = {}
@@ -79,27 +79,5 @@ original = original[['ALUNOS_ENVOLVIDOS', 'CLASSIFICACAO', 'NUM_PUB_ALVO','SUBUN
 alpha = pd.concat([original, data], axis=1)
 alpha = pd.concat([alpha, resposta], axis=1)
 alpha.to_excel("tabelas/data_new.xlsx",  engine = 'openpyxl')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
