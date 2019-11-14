@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/feature selection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultado_aceitavel.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573742468422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Resultados bons">
+      <created>1573742700267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573742700267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +158,7 @@
     <MESSAGE value="Graficos por classificação gerados" />
     <MESSAGE value="Palavras contadas para utilização no AutoWEKA" />
     <MESSAGE value="Novos resultados, mudanças no classificador e mais um monte de coisas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Novos resultados, mudanças no classificador e mais um monte de coisas" />
+    <MESSAGE value="Resultados bons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resultados bons" />
   </component>
 </project>

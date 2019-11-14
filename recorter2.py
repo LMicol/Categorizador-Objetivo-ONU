@@ -8,11 +8,11 @@ original = pd.read_excel("tabelas/final sem algumas.xlsx")
 y = original[['OBJETIVO_ONU']]
 original = original[['TITULO_PROJETO','PALAVRAS_CHAVE','RESUMO', 'OBJETIVO_ONU']]
 
-'''
+
 vet = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-for i in range(2351):
+for i in range(2146):
    vet[y.iloc[i][0]] += 1
-'''
+
 
 vet_palavras = []
 for i in range(17):
