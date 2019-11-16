@@ -16,7 +16,7 @@ import Tunning
 
 def main(argv):
     classifiers=['RF','KNN','DT','SVM','RNA'] #,'nn','sgd']
-    
+    #classifiers=['RF']#,'KNN','DT','SVM','RNA'] #,'nn','sgd']
     ds = pd.read_excel('../MinerText/tabelas/data_new.xlsx').dropna()
 
     X,y = FL.Selection(ds, ['OBJETIVO_ONU'])  #all_data = class_Rob / |||  output = IC_Rob / IC_Sch
@@ -49,7 +49,7 @@ def main(argv):
     scaler.fit(X)
     X_norm = scaler.transform(X)
 
-    X_train, X_test, y_train, y_test = train_test_split(X_norm, y, test_size=0.2)
+    X_train, X_test, y_train, y_test = train_test_split(X_norm, y, test_size=0.3)
     #clf = ''
     #clf = Tunning.DT(X_train, y_train)
 
@@ -69,7 +69,7 @@ def main(argv):
     # print("Prediction r2 score: ",)
     # print(r2_score(y_test, y_pred))
     # precision, recall, fscore, support = score(y_test, y_pred)
-
+    
 
     # Tuning classifier parameters
     # https://scikit-learn.org/stable/modules/grid_search.html

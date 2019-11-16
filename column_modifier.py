@@ -56,29 +56,5 @@ for num in range(2351):
         
 alpha = pd.concat([X, new_columns], axis=1)
 alpha.to_excel("tabelas/data_new.xlsx",  engine = 'openpyxl')
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
                 

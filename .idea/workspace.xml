@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
+    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="novas tabelas e resultados">
       <change afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MLPM.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLPM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/column_modifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/column_modifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/100palavras.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/50palavras.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/50palavrasPORclasse.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/Projetos_CC_tabela_original.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/data_new.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/data_old.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/final (save).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/final sem algumas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelas/final.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573742700267</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="novas tabelas e resultados">
+      <created>1573937135200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573937135200</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +267,7 @@
     <MESSAGE value="Palavras contadas para utilização no AutoWEKA" />
     <MESSAGE value="Novos resultados, mudanças no classificador e mais um monte de coisas" />
     <MESSAGE value="Resultados bons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resultados bons" />
+    <MESSAGE value="novas tabelas e resultados" />
+    <option name="LAST_COMMIT_MESSAGE" value="novas tabelas e resultados" />
   </component>
 </project>
