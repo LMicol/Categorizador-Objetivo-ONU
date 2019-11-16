@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="novas tabelas e resultados">
-      <change afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
+    <list default="true" id="0338999e-b453-4e83-a980-e7acd4628405" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLPM.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLPM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/column_modifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/column_modifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +240,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573937135200</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="classificador definitivo criado">
+      <created>1573937584517</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573937584517</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sistema de objetos persistentes com pickle criado">
+      <created>1573937632401</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573937632401</updated>
+    </task>
+    <task id="LOCAL-00013" summary="interface gráfica criada e funcional">
+      <created>1573937683156</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573937683156</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +287,9 @@
     <MESSAGE value="Novos resultados, mudanças no classificador e mais um monte de coisas" />
     <MESSAGE value="Resultados bons" />
     <MESSAGE value="novas tabelas e resultados" />
-    <option name="LAST_COMMIT_MESSAGE" value="novas tabelas e resultados" />
+    <MESSAGE value="classificador definitivo criado" />
+    <MESSAGE value="sistema de objetos persistentes com pickle criado" />
+    <MESSAGE value="interface gráfica criada e funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface gráfica criada e funcional" />
   </component>
 </project>

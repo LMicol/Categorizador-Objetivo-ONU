@@ -107,17 +107,19 @@ def handler_numeric():
 
 
 def handler():
-    n = handler_numeric()
-    p = handler_text()
+    try:
+        n = handler_numeric()
+        p = handler_text()
 
-    user_inputs = pd.concat([n, p], axis=1)
-    resposta = classifier.predict(user_inputs)
+        user_inputs = pd.concat([n, p], axis=1)
+        resposta = classifier.predict(user_inputs)
 
-    print(onu_obj[resposta[0]])
-
+        app.infoBox("Resultado da Classificação", onu_obj[resposta[0]], parent=None)
+    except:
+        app.errorBox("ERROR", 'Algo deu errado', parent=None)
 
 load_data()
-with gui("GRANDE CLASSIFICADOR", "800x500", bg='white', font={'size': 15}) as app:
+with gui("Classificador de objetivos ONU", "900x600", bg='white', font={'size': 15}) as app:
     app.entry('Título do projeto', label=True, focus=True)
     app.entry('Resumo', label=True, focus=True)
     app.entry('Palavras-chave', label=True, focus=True)
