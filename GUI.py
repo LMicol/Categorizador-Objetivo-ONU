@@ -1,6 +1,4 @@
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
-from sklearn.model_selection import train_test_split
 from MinerUtils import MinerUtils as Mu
 from appJar import gui
 import pandas as pd
