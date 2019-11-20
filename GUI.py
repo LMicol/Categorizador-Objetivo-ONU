@@ -28,15 +28,18 @@ def getXY(dataset):
 
 def load_data():
 
-    with open('obj/randomforestclassifier.clf','rb') as f:
-        global classifier
-        classifier = pickle.load(f)
-        f.close()
+    global classifier
+    classifier = RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                   max_depth=None, max_features='auto', max_leaf_nodes=None,
+                   min_impurity_decrease=0.0, min_impurity_split=None,
+                   min_samples_leaf=1, min_samples_split=7,
+                   min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=-1,
+                   oob_score=False, random_state=123, verbose=0,
+                   warm_start=False)
 
-        ds = pd.read_excel('tabelas/dataset_definitivo.xlsx').dropna()
-        X, y = getXY(ds)
-
-        classifier = classifier.fit(X, y)
+    ds = pd.read_excel('tabelas/dataset_definitivo.xlsx').dropna()
+    X, y = getXY(ds)
+    classifier = classifier.fit(X, y)
 
     with open('obj/UniEns.dict', 'rb') as f:
         global unidades

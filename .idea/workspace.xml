@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573937683156</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="pop-up para erro e resposta adicionado">
+      <created>1573938295556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573938295556</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +297,7 @@
     <MESSAGE value="classificador definitivo criado" />
     <MESSAGE value="sistema de objetos persistentes com pickle criado" />
     <MESSAGE value="interface gráfica criada e funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface gráfica criada e funcional" />
+    <MESSAGE value="pop-up para erro e resposta adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="pop-up para erro e resposta adicionado" />
   </component>
 </project>
