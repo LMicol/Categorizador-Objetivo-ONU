@@ -25,3 +25,18 @@ Em setembro de 2015, mais de 150 líderes mundias estiveram na sede da ONU, em N
 Na Universidade Federal de Santa Maria (UFSM) todos os projetos, sendo desenvolvidos desde 2015, devem estar categorizados em pelo menos um dos objetivos citados. Com o intuito de agilizar essa classificação, essa ferramenta está sendo desenvolvida. A partir dos dados de mais de 2000 projetos, o programa conta com uma Inteligência Artificial capaz de classificar um conjunto de dados passados para ele um dos objetivos da Agenda 2030.
 
 Até o momento conseguimos classificar um projeto entre os objetivos: 2, 3, 4, 6, 8, 9, 11, 12, 15
+
+***
+
+## Bibliotecas necessárias:
+
+Para o programa funcionar corretamente é preciso possuir o Python3.7 instalado. Caso você não tenha, pode baixar e instalar pelo [site oficial](https://www.python.org/downloads/)
+
+Além disso é preciso instalar as bibliotecas:
+* pandas
+* numpy
+* sklearn
+* pickle
+* appJar
+
+Após todas as bibliotecas estarem instaladas, basta clonar o repositório e executar o arquivo "GUI.py"
