@@ -13,7 +13,8 @@ Em setembro de 2015, mais de 150 líderes mundias estiveram na sede da ONU, em N
 - **Objetivo 8:** Trabalho decente e crescimento econômico
 - **Objetivo 9:** Indústria, inovação e infraestrutura
 - **Objetivo 10:** Redução das desigualdades
-- **Objetivo 12:** Cidades e comunidades sustentáveis
+- **Objetivo 11:** Cidades e comunidades sustentáveis
+- **Objetivo 12:** Consumo e produção responsáveis
 - **Objetivo 13:** Ação contra a mudança global do clima
 - **Objetivo 14:** Vida na água
 - **Objetivo 15:** Vida Terrestre
